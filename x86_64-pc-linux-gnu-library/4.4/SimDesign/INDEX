@@ -1,0 +1,98 @@
+Analyse                 Compute estimates and statistics
+AnalyseIf               Perform a test that indicates whether a given
+                        'Analyse()' function should be executed
+Attach                  Attach objects for easier reference
+BF_sim                  Example simulation from Brown and Forsythe
+                        (1974)
+BF_sim_alternative      (Alternative) Example simulation from Brown and
+                        Forsythe (1974)
+Bradley1978             Bradley's (1978) empirical robustness interval
+CC                      Compute congruence coefficient
+ECR                     Compute empirical coverage rates
+EDR                     Compute the empirical detection/rejection rate
+                        for Type I errors and Power
+Generate                Generate data
+GenerateIf              Perform a test that indicates whether a given
+                        'Generate()' function should be executed
+IRMSE                   Compute the integrated root mean-square error
+MAE                     Compute the mean absolute error
+MSRSE                   Compute the relative performance behavior of
+                        collections of standard errors
+PBA                     Probabilistic Bisection Algorithm
+RAB                     Compute the relative absolute bias of multiple
+                        estimators
+RD                      Compute the relative difference
+RE                      Compute the relative efficiency of multiple
+                        estimators
+RMSE                    Compute the (normalized) root mean square error
+RSE                     Compute the relative standard error ratio
+RobbinsMonro            Robbins-Monro (1951) stochastic root-finding
+                        algorithm
+SFA                     Surrogate Function Approximation via the
+                        Generalized Linear Model
+Serlin2000              Empirical detection robustness method suggested
+                        by Serlin (2000)
+SimAnova                Function for decomposing the simulation into
+                        ANOVA-based effect sizes
+SimCheck                Check for missing files in array simulations
+SimClean                Removes/cleans files and folders that have been
+                        saved
+SimCollect              Collapse separate simulation files into a
+                        single result
+SimDesign               Structure for Organizing Monte Carlo Simulation
+                        Designs
+SimExtract              Function to extract extra information from
+                        SimDesign objects
+SimFunctions            Template-based generation of the
+                        Generate-Analyse-Summarise functions
+SimResults              Function to read in saved simulation results
+SimShiny                Generate a basic Monte Carlo simulation GUI
+                        template
+SimSolve                One Dimensional Root (Zero) Finding in
+                        Simulation Experiments
+Summarise               Summarise simulated data using various
+                        population comparison statistics
+addMissing              Add missing values to a vector given a MCAR,
+                        MAR, or MNAR scheme
+bias                    Compute (relative/standardized) bias summary
+                        statistic
+bootPredict             Compute prediction estimates for the
+                        replication size using bootstrap MSE estimates
+clusterSetRNGSubStream
+                        Set RNG sub-stream for Pierre L'Ecuyer's
+                        RngStreams
+colVars                 Form Column Standard Deviation and Variances
+createDesign            Create the simulation design object
+expandDesign            Create the simulation design object
+genSeeds                Generate random seeds
+getArrayID              Get job array ID (e.g., from SLURM or other HPC
+                        array distributions)
+manageMessages          Increase the intensity or suppress the output
+                        of an observed message
+manageWarnings          Manage specific warning messages
+nc                      Auto-named Concatenation of Vector or List
+quiet                   Suppress verbose function messages
+rHeadrick               Generate non-normal data with Headrick's (2002)
+                        method
+rValeMaurelli           Generate non-normal data with Vale & Maurelli's
+                        (1983) method
+rbind.SimDesign         Combine two separate SimDesign objects by row
+reSummarise             Run a summarise step for results that have been
+                        saved to the hard drive
+rejectionSampling       Rejection sampling (i.e., accept-reject method)
+rint                    Generate integer values within specified range
+rinvWishart             Generate data with the inverse Wishart
+                        distribution
+rmgh                    Generate data with the multivariate g-and-h
+                        distribution
+rmvnorm                 Generate data with the multivariate normal
+                        (i.e., Gaussian) distribution
+rmvt                    Generate data with the multivariate t
+                        distribution
+rtruncate               Generate a random set of values within a
+                        truncated range
+runArraySimulation      Run a Monte Carlo simulation using array job
+                        submissions per condition
+runSimulation           Run a Monte Carlo simulation given conditions
+                        and simulation functions
+timeFormater            Format time string to suitable numeric output

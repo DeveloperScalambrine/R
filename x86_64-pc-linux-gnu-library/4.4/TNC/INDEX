@@ -1,0 +1,6 @@
+TNC                     TNC: A package for computing temporal network
+                        centrality values for nodes of a dynamic
+                        network.
+tbc                     Temporal betweenness centrality
+tcc                     Temporal closeness centrality
+tdc                     Temporal degree centrality

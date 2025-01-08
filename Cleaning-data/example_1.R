@@ -1,7 +1,5 @@
 skim_without_charts(penguins)
 glimpse(penguins)
-data_na <- penguins %>%
-  select(species, sex)
 
 data_resume <- na.omit(penguins) %>%
   group_by(species, sex) %>%
@@ -16,3 +14,4 @@ print(data_resume)
 
 print("Soma total por espécie:")
 print(sum_for_specie)
+

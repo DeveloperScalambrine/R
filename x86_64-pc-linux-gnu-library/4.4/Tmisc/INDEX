@@ -1,0 +1,31 @@
+%like%                  x like y
+%nin%                   x not in y
+%nlike%                 x not like y
+Mode                    Mode.
+Tcols                   A palette of 17 diverging colors
+Thist                   Histograms with overlays
+Tpairs                  Better scatterplot matrices.
+addins                  Insert text at current position.
+are_all_equal           Are all equal?
+corner                  Print the top left corner of a data frame
+counts2fpkm             Fragments per kilobase per million
+dokuwiki                Create tables in dokuwiki format
+ellipses                Truncate a data frame with ellipses.
+fisherp                 Fisher's method to combine p-values.
+gg_na                   Plot missing data
+gghues                  Emulate ggplot2 default hues
+gt2refalt               Two-letter genotype from VCF GT
+jsd                     Jensen-Shannon divergence
+lmp                     Linear model p-value
+lowestnonzero           Lowest nonzero values
+lsa                     Improved list of objects
+mat2df                  Matrix to pairwise data frame
+nn                      Get names and class of all columns in a data
+                        frame
+o                       Open the current working directory on mac
+peek                    Peek at the top of a text file
+quartet                 Anscombe's Quartet data (tidy)
+read.cb                 Read from the clipboard
+saveit                  Rename objects while saving.
+sicb                    Write sessionInfo to the clipboard
+strSort                 Sort characters in a string
