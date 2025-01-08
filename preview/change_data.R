@@ -1,4 +1,4 @@
-hotel_bookings <- read_csv("R/Create-Data-Frame/hotel.csv")
+hotel_bookings <- read_csv("R/preview/hotel.csv")
 head(hotel_bookings)
 str(hotel_bookings)
 glimpse(hotel_bookings)
@@ -21,3 +21,5 @@ hotel_summary <- hotel_bookings %>%
             max_lead_time=max(lead_time))
 
 head(hotel_summary)
+
+colnames(hotel_summary)
